@@ -11,7 +11,7 @@ const CommentBox = ({ saveComment }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    saveComment();
+    saveComment(comment);
     setComment("");
   };
   return (
